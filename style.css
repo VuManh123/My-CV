@@ -1,0 +1,64 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    display: flex;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 35%;
+    height: 100vh;
+    background-color: #263238;
+    padding: 20px;
+}
+
+/* Avatar */
+img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Contact Info */
+.contact {
+    margin-top: 20px;
+    color: #ffff;
+}
+.education {
+    margin-top: 20px;
+    color: #ffff;
+}
+.skills {
+    margin-top: 20px;
+    color: #ffff;
+}
+/* Language */
+.language {
+    margin-top: 20px;
+    color: #ffff;
+}
+
+/* Content */
+.content {
+    width: 65%;
+    background-color: #ffff;
+    color: #263238;
+    padding: 20px;
+}
+
+/* Heading Styles */
+h1, h2 {
+    font-weight: bold;
+}
+
+/* Link Styles */
+a {
+    color: #90a4ae;
+    text-decoration: none;
+}
